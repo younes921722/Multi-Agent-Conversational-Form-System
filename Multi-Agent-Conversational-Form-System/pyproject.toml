@@ -1,0 +1,19 @@
+[project]
+name = "multi-agent-conversational-form-system"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "younes921722",email = "younes.saouabeddine2001@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "multi_agent_conversational_form_system", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
